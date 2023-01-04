@@ -1,9 +1,9 @@
 import "./styles.css";
-import React, { useState } from "react";
+import React from "react";
 import useTabela from "./Hooks/tabela";
 
 export default function App() {
-  const { tabelaVisivel, exibirForm, exibirTabela, formVisivel } = useTabela();
+  const { tabelaVisivel, exibirForm, exibirTabela } = useTabela();
 
   return (
     <main className="App">
@@ -36,7 +36,7 @@ export default function App() {
           <input type="text" />
           <span>Idade</span>
           <input type="number" />
-          <button onClick={() => exibirTabela}>Voltar</button>
+          <button onClick={exibirTabela}>Voltar</button>
         </div>
       )}
     </main>

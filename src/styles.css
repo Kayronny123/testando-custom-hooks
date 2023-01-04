@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #222222;
+  color: #ffffff;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.table {
+  border: 1px solid #fff;
+}
